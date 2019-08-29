@@ -2,7 +2,7 @@ import React from 'react';
 
 const style = {
   fontSize: '5.5rem',
-  color: 'red',
+  color: 'purple',
 };
 
 function Blockquote({ children }) {
