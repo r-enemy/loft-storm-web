@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {},
   "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
     "start": "lerna run start"
   },
   "eslintConfig": {
@@ -15,6 +16,5 @@
   ],
   "devDependencies": {
     "lerna": "^3.16.4"
-  },
-  "npmClient": "yarn"
+  }
 }
